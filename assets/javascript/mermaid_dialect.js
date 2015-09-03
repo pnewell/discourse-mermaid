@@ -5,7 +5,7 @@ Discourse.Dialect.inlineBetween({
     stop: '\[\/flowchart\]',
     rawContents: true,
     emitter: function(contents) {
-        return '<div class="mermaid">' + contents + "</div>";
+        return '<div class="mermaid">' + contents + '</div>';
     }
 })
     
